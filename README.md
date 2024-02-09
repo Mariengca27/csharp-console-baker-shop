@@ -11,7 +11,10 @@
 ## To start the project:
 
 1º Clone the repository + Install Visual Studio 2022
+
 2º Open the project in Visual Studio
+
 3º Run the project
+
 5º The project is running and you can use it. 
 
