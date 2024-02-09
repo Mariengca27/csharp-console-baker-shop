@@ -1,5 +1,8 @@
 ﻿string warningToCustomer = " Warning: NOW you are inside of the Cake Maryanne Shop. Please, be careful with the cakes. ";
 
+// New List to put the new registers
+List<string> newFlavors = new List<string>();
+
 void ShowTheWarningToCustomer()
 {
     Console.WriteLine(warningToCustomer);
@@ -114,9 +117,23 @@ void ListOfCupcakes()
 
 }
 
-void RegisterNewFlavor() { 
+void RegisterNewFlavor()
+{
 
-//Next implemetation 
+    Console.Clear();
+    Console.WriteLine("NEW REGISTER OF FLAVOR ");
+    Console.Write("Please, fill the new register name: ");
+    string nameFlavor = Console.ReadLine();
+    newFlavors.Add(nameFlavor);
+
+    Console.WriteLine("The new register was added with success");
+    //Next implemetation are the if/else to choose the type of the flavros 
+
+
+
+
+
+
 
 }
 
