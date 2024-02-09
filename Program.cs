@@ -27,25 +27,24 @@ void showCakesAndPiesOptions()
 
     int chosenOption = int.Parse(menuOptions);
 
-    if (chosenOption == 1)
+    switch (chosenOption)
     {
-        Console.WriteLine("You have selected the Cakes");
-    }
-    else if (chosenOption == 2)
-    {
-        Console.WriteLine("You have selected the Pies");
-    }
-    else if (chosenOption == 3)
-    {
-        Console.WriteLine("You have selected the Cupcakes");
-    }
-    else if (chosenOption == 4)
-    {
-        Console.WriteLine("You have selected to Exit");
-    }
-    else
-    {
-        Console.WriteLine("Invalid Option,please try again!!!");
+
+        case 1:
+            Console.WriteLine("You choose Cakes");
+            break;
+        case 2:
+            Console.WriteLine("You choose Pies");
+            break;
+        case 3:
+            Console.WriteLine("You choose Cupcakes");
+            break;
+        case 4:
+            Console.WriteLine("You choose to Exit");
+            break;
+        default:
+               Console.WriteLine("Invalid Option");
+            break;
     }
 
 }
